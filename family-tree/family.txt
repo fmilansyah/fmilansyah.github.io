@@ -33,7 +33,7 @@ Sajang + ?
 Oneng + ?
  c: Siti Robiah, Misna, Saprudin, Maesaroh
 Dempe + ?
- c: Teh Indah, Roma Permana, Yuli, Apang
+ c: Teh Indah, Roma Permana, Yuli#dempe, Apang
 Atin#cicih + ?
  c: Manus, Maryani
 Supardi + ?
