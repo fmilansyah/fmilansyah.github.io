@@ -2,8 +2,8 @@
 'use strict';
 
 // Override these settings:
-var familyDataFilename = "simpsons-family.txt"; // Your own family.txt
-var defaultRootName = 'UU Kamnah';                // Someone in your family
+var familyDataFilename = "family.txt"; // Your own family.txt
+var defaultRootName = 'Febri Milansyah';                // Someone in your family
 var lineHeight = 280;  // 220 is better, but the Simpsons pngs are very vertical
 
 // Other rendering constants
@@ -833,8 +833,6 @@ function errorOut(error) {
 function asyncLoadTextFile(filename, successCallback) {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", filename, true);
-  xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-  xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
   xhr.onload = function (e) {
     if (xhr.readyState === 4 && xhr.status === 200) {
       try {
