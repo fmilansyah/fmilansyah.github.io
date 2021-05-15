@@ -20,11 +20,35 @@ Komalasari (Oom) + ?
  c: Dina, Dini
 Ipah + ?
  c: Della
-Kadir (Iskandar) + Kaka
+Kadir (Iskandar) + ?
  c: Kaka
+Teja + ?
+ c: Mur, Dede, Kurnia, Darman, Ahmad, Mulyadi
+Sumiati + ?
+ c: Junengsih, Ujum, Juhara, Iteng, Ismawah, Aceng
+Sulastri + ?
+ c: Jubaedah#sulastri, Warti, Margana, Siti, Dayat, Andi, Suradi, Sobri, Ahmad#sulastri
+Sajang + ?
+ c: Romansah, Santi, Dedep Sunandar
+Oneng + ?
+ c: Siti Robiah, Misna, Saprudin, Maesaroh
+Dempe + ?
+ c: Teh Indah, Roma Permana, Yuli, Apang
+Atin + ?
+ c: Manus, Maryani
+Supardi + ?
+ c: Suryana, Nining, Khoirul Fadil
+Ajat + ?
+ c: Bayu, Suningrat, M. Kanaki
+Ikin Sadikin + ?
+ c: Atin, Lia, Yuni, Rio, Adam, Gilang, Sofi, Putri
 Erni + Agus Samsudin
  c: Rosalina, Febri Milansyah
 Rosalina + Alan
  c: Leandra Omera Rosyada
-Ikin Sadikin + ?
- c: Atin, Lia, Yuni, Rio, Adam, Gilang, Sofi, Putri
+Diah + ?
+ c: Iyong, Yuli, Astri, Rongga
+Engkus + ?
+ c: Ida, Nia, Dede, Mona, Danu
+Ujum + ?
+ c: Rian, Rifal
