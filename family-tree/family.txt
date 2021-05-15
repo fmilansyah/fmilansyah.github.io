@@ -3,11 +3,11 @@ Enin Kamnah + Aki Fahrudin
 Aki Kastu + Enin Jubaedah
  c: Isah, Juju, Dede, Agus Salim, Acih, Komalasari (Oom), Ipah, Kadir (Iskandar)
 Enin Cicih (Sumatra) + Aki Emek
- c: Teja, Sumiati, Sulastri, Sajang, Oneng, Dempe, Atin, Supardi, Ajat
+ c: Teja, Sumiati, Sulastri, Sajang, Oneng, Dempe, Atin#cicih, Supardi, Ajat
 Enin Mimin (Ciming) + Omo
  c: Ikin Sadikin, Erni
 Enin Koma + Aki Jumali
- c: Diah, Engkus, Ujum
+ c: Diah, Engkus, Ujum#koma
 Isah + Hamim
  c: Wahyu, Isal, Puloh, Ipah#isah
 Juju + Emang
@@ -25,7 +25,7 @@ Kadir (Iskandar) + ?
 Teja + ?
  c: Mur, Dede, Kurnia, Darman, Ahmad, Mulyadi
 Sumiati + ?
- c: Junengsih, Ujum, Juhara, Iteng, Ismawah, Aceng
+ c: Junengsih, Ujum#sumiati, Juhara, Iteng, Ismawah, Aceng
 Sulastri + ?
  c: Jubaedah#sulastri, Warti, Margana, Siti, Dayat, Andi, Suradi, Sobri, Ahmad#sulastri
 Sajang + ?
@@ -34,7 +34,7 @@ Oneng + ?
  c: Siti Robiah, Misna, Saprudin, Maesaroh
 Dempe + ?
  c: Teh Indah, Roma Permana, Yuli, Apang
-Atin + ?
+Atin#cicih + ?
  c: Manus, Maryani
 Supardi + ?
  c: Suryana, Nining, Khoirul Fadil
@@ -50,5 +50,5 @@ Diah + ?
  c: Iyong, Yuli, Astri, Rongga
 Engkus + ?
  c: Ida, Nia, Dede, Mona, Danu
-Ujum + ?
+Ujum#koma + ?
  c: Rian, Rifal
