@@ -3,11 +3,11 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html" charset="utf-8" />
-    <meta name="title" content="Silsilah Keluarga - @fmilansyah" />
+    <meta name="title" content="Baraya Kamnah dan Fachrudin - @fmilansyah" />
     <meta name="author" content="Febri Milansyah" />
-    <meta name="description" content="Silsilah keluarga description" />
+    <meta name="description" content="Silsilah keluarga UU Kamnah dan UU Fachrudin" />
 
-    <title>Silsilah Keluarga - @fmilansyah</title>
+    <title>Baraya Kamnah dan Fachrudin - @fmilansyah</title>
 
     <style>
         .label {
@@ -120,23 +120,22 @@
             <span>Silsilah keluarga dari <b><span id="root-name"></span></b></span>
             <span>dan
                 <select id="detail-picker" onchange="updateDetail()">
-                    <option value="0">descendants, ancestors</option>
-                    <option value="1">descendants, ancestors + their children, siblings</option>
-                    <option value="2">descendants, ancestors + their grandchildren, cousins, nieces/nephews</option>
-                    <option value="3">descendants, ancestors + their great-grandchildren, 2nd cousins</option>
-                    <option value="Infinity" selected="selected">descendants, ancestors + all descendants of ancestors
+                    <option value="0">keturunan, nenek moyang</option>
+                    <option value="1">keturunan, nenek moyang + anak mereka, saudara kandung</option>
+                    <option value="2">keturunan, nenek moyang + cucu mereka, sepupu, keponakan</option>
+                    <option value="3">keturunan, nenek moyang + cicit mereka, sepupu ke-2</option>
+                    <option value="Infinity" selected="selected">keturunan, nenek moyang + semua keturunan dari nenek moyang
                     </option>
-                    <option value="Everyone">everyone</option>
+                    <option value="Everyone">semua orang</option>
                 </select>
             </span>
             <span id="tree-information"></span>
         </div>
         <div id="panel-bottom">
             <div id="info-pane-placeholder">
-                <i>Hover your mouse on a person with <img src="info-icon.png" height="12px"> for their information</i>
-                <br>See the <a target="_blank" href="https://github.com/daveagp/family-tree">source code</a> on GitHub
+                <br><a target="_blank" href="https://github.com/daveagp/family-tree">Source code</a> on GitHub
             </div>
-            <div id="info-pane" style="display: none">About <i><span id="info-pane-name"></span></i>:
+            <div id="info-pane" style="display: none">Tentang <i><span id="info-pane-name"></span></i>:
                 <span id="info-pane-details"></span>
             </div>
         </div>
