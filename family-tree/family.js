@@ -833,6 +833,8 @@ function errorOut(error) {
 function asyncLoadTextFile(filename, successCallback) {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", filename, true);
+  xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+  xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
   xhr.onload = function (e) {
     if (xhr.readyState === 4 && xhr.status === 200) {
       try {
