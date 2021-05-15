@@ -1,8 +1,6 @@
 UU Kamnah + UU Fachrudin
- c: Aki Kastu, Enin Cicih (Sumatra), Enin Mimin (Ciming), Enin Koma
+ c: Aki Kastu, Enin Cicih (Sumatra), Enin Mimin (Ciming)#3, Enin Koma
  n: blah blah blah blah blah
-Enin Mimin (Ciming)
- l: 1756 -
-Enin Mimin (Ciming)
+Enin Mimin (Ciming)#3
  c: Ikin Sadikin, Erni
  n: blah blah blah blah blah
