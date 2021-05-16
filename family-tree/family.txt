@@ -1,11 +1,11 @@
 Enin Kamnah + Aki Fahrudin
- c: Aki Kastu, Enin Cicih (Sumatra), Enin Mimin (Ciming), Enin Koma
+ c: Aki Kastu, Enin Cicih (Sumatra), Enin Koma, Enin Mimin (Ciming)
 Aki Kastu + Enin Jubaedah
  c: Isah, Juju, Dede#kastu, Agus Salim, Acih, Komalasari (Oom), Ipah, Kadir (Iskandar)
 Enin Cicih (Sumatra) + Aki Emek
  c: Teja, Sumiati, Sulastri, Sajang, Oneng, Dempe, Atin#cicih, Supardi, Ajat
 Enin Mimin (Ciming) + Omo
- c: Ikin Sadikin, Erni
+ c: Ikin Sadikin, Erni Herniawati
 Enin Koma + Aki Jumali
  c: Diah, Engkus, Ujum#koma
 Isah + Hamim
@@ -42,7 +42,7 @@ Ajat + ?
  c: Bayu, Suningrat, M. Kanaki
 Ikin Sadikin + ?
  c: Atin, Lia, Yuni, Rio, Adam, Gilang, Sofi, Putri
-Erni + Agus Samsudin
+Erni Herniawati + Agus Samsudin
  c: Rosalina, Febri Milansyah
 Rosalina + Alan
  c: Leandra Omera Rosyada
