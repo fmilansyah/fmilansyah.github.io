@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export && touch out/.nojekyll"
   },
   "dependencies": {
     "next": "10.2.3",
