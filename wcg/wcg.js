@@ -1,5 +1,11 @@
-function getSnakeCase() {
-    let name = document.getElementById('snake_case_field').value
+function getLowerSnakeCase() {
+    let name = document.getElementById('lower_snake_case_field').value
     let result = name.toLowerCase().replace(/\s/g, "_").replace(/[^\w\s]/g, '')
-    document.getElementById('snake_case_result').innerHTML = result
+    document.getElementById('lower_snake_case_result').innerHTML = result
+}
+
+function getLowerKebabCase() {
+    let name = document.getElementById('lower_kebab_case_field').value
+    let result = name.toLowerCase().replace(/\s/g, "_").replace(/[^\w\s]/g, '')
+    document.getElementById('lower_kebab_case_result').innerHTML = result
 }
