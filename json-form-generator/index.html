@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Form Generator</title>
+</head>
+
+<body>
+    <form id="form-data">
+        <fieldset>
+            <legend>JSON Form Generator</legend>
+            <label for="prefix">Prefix :</label>
+            <input type="text" id="prefix" name="prefix" required />
+            <br />
+            <br />
+            <label for="title">Title :</label>
+            <textarea name="title" id="title" cols="30" rows="10" required></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Generate" />
+        </fieldset>
+    </form>
+    <br />
+    <button type="button" id="copy">Salin</button>
+    <br />
+    <p id="result">JSON Result</p>
+
+    <script type="text/javascript">
+        document.getElementById("copy").addEventListener("click", function() {
+            var copyText = document.getElementById("result").innerHTML;
+            navigator.clipboard.writeText(copyText);
+        });
+        document.getElementById("form-data").addEventListener("submit", function (event) {
+            event.preventDefault();
+            const prefix = document.getElementById("prefix").value;
+            const titleValue = document.getElementById("title").value;
+            const title = titleValue.split("|");
+            let result = [];
+
+            title.forEach(function (item, index) {
+                result.push(
+                    {
+                        "tindakan_keperawatan": item,
+                        "tgl_jam_1": [
+                            {
+                                "name": prefix + "_tgl_dan_jam_1_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "placeholder": null,
+                                    "type": "datetime",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "ttd_nama_1": [
+                            {
+                                "name": prefix + "_ttd_nama_1_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "label_left": "",
+                                    "label_right": "",
+                                    "placeholder": null,
+                                    "type": "text",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "tgl_jam_2": [
+                            {
+                                "name": prefix + "_tgl_dan_jam_2_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "placeholder": null,
+                                    "type": "datetime",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "ttd_nama_2": [
+                            {
+                                "name": prefix + "_ttd_nama_2_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "label_left": "",
+                                    "label_right": "",
+                                    "placeholder": null,
+                                    "type": "text",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "tgl_jam_3": [
+                            {
+                                "name": prefix + "_tgl_dan_jam_3_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "placeholder": null,
+                                    "type": "datetime",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "ttd_nama_3": [
+                            {
+                                "name": prefix + "_ttd_nama_3_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "label_left": "",
+                                    "label_right": "",
+                                    "placeholder": null,
+                                    "type": "text",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "tgl_jam_4": [
+                            {
+                                "name": prefix + "_tgl_dan_jam_4_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "placeholder": null,
+                                    "type": "datetime",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "ttd_nama_4": [
+                            {
+                                "name": prefix + "_ttd_nama_4_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "label_left": "",
+                                    "label_right": "",
+                                    "placeholder": null,
+                                    "type": "text",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "tgl_jam_5": [
+                            {
+                                "name": prefix + "_tgl_dan_jam_5_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "placeholder": null,
+                                    "type": "datetime",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "ttd_nama_5": [
+                            {
+                                "name": prefix + "_ttd_nama_5_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "label_left": "",
+                                    "label_right": "",
+                                    "placeholder": null,
+                                    "type": "text",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "tgl_jam_6": [
+                            {
+                                "name": prefix + "_tgl_dan_jam_6_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "placeholder": null,
+                                    "type": "datetime",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                        "ttd_nama_6": [
+                            {
+                                "name": prefix + "_ttd_nama_6_" + (index + 1),
+                                "type": "form",
+                                "label": "",
+                                "form": {
+                                    "label_left": "",
+                                    "label_right": "",
+                                    "placeholder": null,
+                                    "type": "text",
+                                    "is_required": true,
+                                    "validator": []
+                                }
+                            }
+                        ],
+                    }
+                );
+            })
+
+            // document.getElementById("result").innerHTML = JSON.stringify(result);
+            document.getElementById("result").innerHTML = JSON.stringify(result);
+        });
+    </script>
+</body>
+
+</html>
