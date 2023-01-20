@@ -1405,9 +1405,7 @@ h6 {
   16. Site Footer 
 ************************************************************/
 .site-footer {
-  background-color: #333;
-  background: url('../image/footer-bg.jpg') no-repeat center center;
-  background-size: cover;
+  background-color: #222222;
   padding-top: 90px;
   padding-bottom: 60px;
   position: relative;
@@ -1420,7 +1418,6 @@ h6 {
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.1);
   z-index: -1;
 }
 .site-footer .container {
@@ -1484,9 +1481,6 @@ h6 {
   transition: 0.3s;
   border-radius: 50%;
   display: inline-block;
-}
-.site-footer .footer-bottom {
-  margin-top: 78px;
 }
 .site-footer .footer-bottom p {
   font-size: 16px;
