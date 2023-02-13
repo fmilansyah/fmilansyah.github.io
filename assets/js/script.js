@@ -40,92 +40,6 @@
     
     
     /*================================================================= 
-        Testimonial carousel
-    ==================================================================*/
-    const swiper = new Swiper('.swiper', {
-      // Optional parameters
-      breakpoints: {
-        1200:{
-          slidesPerView: 3,
-        },
-        992:{
-          slidesPerView: 2, 
-        },
-        576:{
-          slidesPerView: 1
-        },
-       },
-      //slidesPerView: 3,
-      spaceBetween: 24,
-      loop: true,
-      autoplay: {
-         delay: 5000,
-       },
-       
-    
-      // If we need pagination
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true
-      },
-    
-    });
-    
-    
-    /*================================================================= 
-        Partner carousel
-    ==================================================================*/
-    const swiper2 = new Swiper('.partnerCarousel', {
-      // Optional parameters
-      breakpoints: {
-        1200:{
-          slidesPerView: 6,
-        },
-        992:{
-          slidesPerView: 4, 
-        },
-        576:{
-          slidesPerView: 3
-        },
-        320:{
-          slidesPerView: 2
-        },
-       },
-      //slidesPerView: 6,
-      spaceBetween: 24,
-      loop: true,
-      autoplay: {
-         delay: 5000,
-       },
-    
-    });
-    
-    
-    
-    /*================================================================= 
-        Navbar fixed top
-    ==================================================================*/
-    $(document).ready(function () {
-    
-        var menu = $('.site-header nav');
-        var origOffsetY = $('.hero-area').height();
-    
-        function scroll() {
-            if ($(window).scrollTop() >= origOffsetY) {
-                $('.site-header nav').addClass('fixed-top');
-                
-            } else {
-                $('.site-header nav').removeClass('fixed-top');
-               
-            }
-        }
-    
-        document.onscroll = scroll;
-    
-    });
-    
-    
-    /*================================================================= 
         Contact form 
     ==================================================================*/
     $(function() {
@@ -180,30 +94,6 @@
       });
     
     });
-    
-    /*================================================================= 
-        Animating numbers
-    ==================================================================*/
-    $('.counter').counterUp({
-        delay: 10,
-        time: 3000
-    });
-    
-    
-    /*================================================================= 
-        Progress bar animation
-    ==================================================================*/
-    var waypoint = new Waypoint({
-      element: document.getElementById('skill-section'),
-      handler: function() {
-        $('.progress .progress-bar').css("width",function() {
-          return $(this).attr("aria-valuenow") + "%";
-      })
-      },
-      //offset: 'bottom-in-view',
-      offset: 700,
-    })
-    
     
     /*================================================================= 
         Animate on scroll initialization
