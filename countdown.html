@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Countdown</title>
+    <style>
+        p.title {
+            text-align: center;
+            font-size: 38px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        p.timer {
+            text-align: center;
+            font-size: 48px;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p class="title">Time To Tell</p>
+    <p class="timer" id="tell"></p>
+
+    <p class="title">Time To Go</p>
+    <p class="timer" id="go"></p>
+
+    <p class="title">Time To Come Back</p>
+    <p class="timer" id="come-back"></p>
+
+    <script>
+        var tellDate = new Date("Apr 01, 2023 00:00:00").getTime();
+        var goDate = new Date("Jun 30, 2023 23:59:59").getTime();
+        var comeBackDate = new Date("Sep 1, 2023 00:00:00").getTime();
+
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+
+            var distanceTell = tellDate - now;
+
+            var daysTell = Math.floor(distanceTell / (1000 * 60 * 60 * 24));
+            var hoursTell = Math.floor((distanceTell % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutesTell = Math.floor((distanceTell % (1000 * 60 * 60)) / (1000 * 60));
+            var secondsTell = Math.floor((distanceTell % (1000 * 60)) / 1000);
+
+            document.getElementById("tell").innerHTML = daysTell + "d " + hoursTell + "h "
+                + minutesTell + "m " + secondsTell + "s ";
+
+            if (distanceTell < 0) {
+                document.getElementById("tell").innerHTML = "EXPIRED";
+            }
+
+            var distanceGo = goDate - now;
+
+            var daysGo = Math.floor(distanceGo / (1000 * 60 * 60 * 24));
+            var hoursGo = Math.floor((distanceGo % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutesGo = Math.floor((distanceGo % (1000 * 60 * 60)) / (1000 * 60));
+            var secondsGo = Math.floor((distanceGo % (1000 * 60)) / 1000);
+
+            document.getElementById("go").innerHTML = daysGo + "d " + hoursGo + "h "
+                + minutesGo + "m " + secondsGo + "s ";
+
+            if (distanceGo < 0) {
+                document.getElementById("go").innerHTML = "EXPIRED";
+            }
+
+            var distanceComeBack = comeBackDate - now;
+
+            var daysComeBack = Math.floor(distanceComeBack / (1000 * 60 * 60 * 24));
+            var hoursComeBack = Math.floor((distanceComeBack % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutesComeBack = Math.floor((distanceComeBack % (1000 * 60 * 60)) / (1000 * 60));
+            var secondsComeBack = Math.floor((distanceComeBack % (1000 * 60)) / 1000);
+
+            document.getElementById("come-back").innerHTML = daysComeBack + "d " + hoursComeBack + "h "
+                + minutesComeBack + "m " + secondsComeBack + "s ";
+
+            if (distanceComeBack < 0) {
+                document.getElementById("come-back").innerHTML = "EXPIRED";
+            }
+
+            if (distanceTell < 0 && distanceGo < 0 && distanceComeBack < 0) {
+                clearInterval(x);
+            }
+        }, 1000);
+    </script>
+
+</body>
+
+</html>
