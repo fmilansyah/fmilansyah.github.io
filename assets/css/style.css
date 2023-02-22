@@ -498,27 +498,6 @@ h6 {
   position: relative;
   text-align: center;
 }
-.about-section .img-wrapper:before,
-.about-section .img-wrapper:after {
-  position: absolute;
-  content: '';
-}
-.about-section .img-wrapper:before {
-  width: 60px;
-  height: 60px;
-  border-radius: 7px;
-  border: 5px solid #59c378;
-  left: 30px;
-  top: 190px;
-}
-.about-section .img-wrapper:after {
-  width: 36px;
-  height: 36px;
-  background: #59c378;
-  left: 332px;
-  bottom: -90px;
-  border-radius: 4px;
-}
 .about-section .about-img-2 {
   position: absolute;
   left: 0;
